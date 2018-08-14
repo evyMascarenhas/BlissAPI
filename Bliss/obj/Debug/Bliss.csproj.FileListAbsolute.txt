@@ -1,0 +1,141 @@
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\Bliss.dll.config
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\Bliss.dll
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\Bliss.pdb
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\roslyn\csc.exe
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\roslyn\csc.exe.config
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\roslyn\csc.rsp
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\roslyn\csi.exe
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\roslyn\csi.exe.config
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\roslyn\csi.rsp
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\roslyn\System.AppContext.dll
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\roslyn\System.Console.dll
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\roslyn\System.IO.Compression.dll
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\roslyn\System.IO.Pipes.dll
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\roslyn\System.Security.Claims.dll
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\roslyn\System.Threading.Thread.dll
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\roslyn\System.ValueTuple.dll
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\roslyn\System.Xml.XPath.dll
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\roslyn\vbc.exe
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\roslyn\vbc.exe.config
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\roslyn\vbc.rsp
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\roslyn\VBCSCompiler.exe
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\Newtonsoft.Json.dll
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\System.Net.Http.Formatting.dll
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\System.Web.Http.dll
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\System.Web.Http.WebHost.dll
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\Newtonsoft.Json.xml
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\System.Net.Http.Formatting.xml
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\System.Web.Http.xml
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\System.Web.Http.WebHost.xml
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\pt-br\System.Net.Http.Formatting.resources.dll
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\pt-br\System.Web.Http.resources.dll
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\bin\pt-br\System.Web.Http.WebHost.resources.dll
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\obj\Debug\Bliss.csprojResolveAssemblyReference.cache
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\obj\Debug\Bliss.csproj.CoreCompileInputs.cache
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\obj\Debug\Bliss.csproj.CopyComplete
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\obj\Debug\Bliss.dll
+C:\Users\marcelo.ciardulo\Documents\Alta Genetics\Workspaces\VS2017\Bliss\Bliss\obj\Debug\Bliss.pdb
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\Bliss.dll.config
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\Bliss.dll
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\Bliss.pdb
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\roslyn\csc.exe
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\roslyn\csc.exe.config
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\roslyn\csc.rsp
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\roslyn\csi.exe
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\roslyn\csi.exe.config
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\roslyn\csi.rsp
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\roslyn\System.AppContext.dll
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\roslyn\System.Console.dll
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\roslyn\System.IO.Compression.dll
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\roslyn\System.Security.Claims.dll
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\roslyn\System.ValueTuple.dll
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\roslyn\vbc.exe
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\roslyn\vbc.exe.config
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\roslyn\vbc.rsp
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\roslyn\VBCSCompiler.exe
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\EntityFramework.dll
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\EntityFramework.SqlServer.dll
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\Newtonsoft.Json.dll
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\System.Net.Http.Formatting.dll
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\System.Web.Http.dll
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\System.Web.Http.WebHost.dll
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\EntityFramework.xml
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\EntityFramework.SqlServer.xml
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\Newtonsoft.Json.xml
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\System.Net.Http.Formatting.xml
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\System.Web.Http.xml
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\System.Web.Http.WebHost.xml
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\pt-br\System.Net.Http.Formatting.resources.dll
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\pt-br\System.Web.Http.resources.dll
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\bin\pt-br\System.Web.Http.WebHost.resources.dll
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\obj\Debug\Bliss.csprojResolveAssemblyReference.cache
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\obj\Debug\Bliss.csproj.CoreCompileInputs.cache
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\obj\Debug\Bliss.dll
+C:\Users\Evellyn.Mascarenhas\Desktop\Marcelo\Bliss\Bliss\obj\Debug\Bliss.pdb

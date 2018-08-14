@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="RecruitmentModelStoreContainer" CdmEntityContainer="RecruitmentEntities">
+    <EntitySetMapping Name="choices">
+      <EntityTypeMapping TypeName="RecruitmentModel.choices">
+        <MappingFragment StoreEntitySet="choices">
+          <ScalarProperty Name="choices1" ColumnName="choices" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="questions">
+      <EntityTypeMapping TypeName="RecruitmentModel.questions">
+        <MappingFragment StoreEntitySet="questions">
+          <ScalarProperty Name="published_at" ColumnName="published_at" />
+          <ScalarProperty Name="thumb_url" ColumnName="thumb_url" />
+          <ScalarProperty Name="image_url" ColumnName="image_url" />
+          <ScalarProperty Name="question" ColumnName="question" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="questions_choices">
+      <EntityTypeMapping TypeName="RecruitmentModel.questions_choices">
+        <MappingFragment StoreEntitySet="questions_choices">
+          <ScalarProperty Name="votes" ColumnName="votes" />
+          <ScalarProperty Name="choiceID" ColumnName="choiceID" />
+          <ScalarProperty Name="questionID" ColumnName="questionID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="RecruitmentModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="choices">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="choices" Type="nvarchar" MaxLength="200" Nullable="false" />
+        </EntityType>
+        <EntityType Name="questions">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="question" Type="nvarchar" MaxLength="800" Nullable="false" />
+          <Property Name="image_url" Type="nvarchar(max)" />
+          <Property Name="thumb_url" Type="nvarchar(max)" />
+          <Property Name="published_at" Type="datetime" Nullable="false" />
+        </EntityType>
+        <EntityType Name="questions_choices">
+          <Key>
+            <PropertyRef Name="questionID" />
+            <PropertyRef Name="choiceID" />
+          </Key>
+          <Property Name="questionID" Type="int" Nullable="false" />
+          <Property Name="choiceID" Type="int" Nullable="false" />
+          <Property Name="votes" Type="int" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_questions_choices_choices">
+          <End Role="choices" Type="Self.choices" Multiplicity="1" />
+          <End Role="questions_choices" Type="Self.questions_choices" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="choices">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="questions_choices">
+              <PropertyRef Name="choiceID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_questions_choices_questions">
+          <End Role="questions" Type="Self.questions" Multiplicity="1" />
+          <End Role="questions_choices" Type="Self.questions_choices" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="questions">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="questions_choices">
+              <PropertyRef Name="questionID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="RecruitmentModelStoreContainer">
+          <EntitySet Name="choices" EntityType="Self.choices" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="questions" EntityType="Self.questions" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="questions_choices" EntityType="Self.questions_choices" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_questions_choices_choices" Association="Self.FK_questions_choices_choices">
+            <End Role="choices" EntitySet="choices" />
+            <End Role="questions_choices" EntitySet="questions_choices" />
+          </AssociationSet>
+          <AssociationSet Name="FK_questions_choices_questions" Association="Self.FK_questions_choices_questions">
+            <End Role="questions" EntitySet="questions" />
+            <End Role="questions_choices" EntitySet="questions_choices" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="RecruitmentModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="RecruitmentEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="choices" EntityType="RecruitmentModel.choices" />
+          <EntitySet Name="questions" EntityType="RecruitmentModel.questions" />
+          <EntitySet Name="questions_choices" EntityType="RecruitmentModel.questions_choices" />
+          <AssociationSet Name="FK_questions_choices_choices" Association="RecruitmentModel.FK_questions_choices_choices">
+            <End Role="choices" EntitySet="choices" />
+            <End Role="questions_choices" EntitySet="questions_choices" />
+          </AssociationSet>
+          <AssociationSet Name="FK_questions_choices_questions" Association="RecruitmentModel.FK_questions_choices_questions">
+            <End Role="questions" EntitySet="questions" />
+            <End Role="questions_choices" EntitySet="questions_choices" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="choices">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="choices1" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="questions_choices" Relationship="RecruitmentModel.FK_questions_choices_choices" FromRole="choices" ToRole="questions_choices" />
+        </EntityType>
+        <EntityType Name="questions">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="question" Type="String" Nullable="false" MaxLength="800" FixedLength="false" Unicode="true" />
+          <Property Name="image_url" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="thumb_url" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="published_at" Type="DateTime" Nullable="false" Precision="3" />
+          <NavigationProperty Name="questions_choices" Relationship="RecruitmentModel.FK_questions_choices_questions" FromRole="questions" ToRole="questions_choices" />
+        </EntityType>
+        <EntityType Name="questions_choices">
+          <Key>
+            <PropertyRef Name="questionID" />
+            <PropertyRef Name="choiceID" />
+          </Key>
+          <Property Name="questionID" Type="Int32" Nullable="false" />
+          <Property Name="choiceID" Type="Int32" Nullable="false" />
+          <Property Name="votes" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="choices" Relationship="RecruitmentModel.FK_questions_choices_choices" FromRole="questions_choices" ToRole="choices" />
+          <NavigationProperty Name="questions" Relationship="RecruitmentModel.FK_questions_choices_questions" FromRole="questions_choices" ToRole="questions" />
+        </EntityType>
+        <Association Name="FK_questions_choices_choices">
+          <End Type="RecruitmentModel.choices" Role="choices" Multiplicity="1" />
+          <End Type="RecruitmentModel.questions_choices" Role="questions_choices" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="choices">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="questions_choices">
+              <PropertyRef Name="choiceID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_questions_choices_questions">
+          <End Type="RecruitmentModel.questions" Role="questions" Multiplicity="1" />
+          <End Type="RecruitmentModel.questions_choices" Role="questions_choices" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="questions">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="questions_choices">
+              <PropertyRef Name="questionID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="RecruitmentModelStoreContainer" CdmEntityContainer="RecruitmentEntities">
+          <EntitySetMapping Name="choices">
+            <EntityTypeMapping TypeName="RecruitmentModel.choices">
+              <MappingFragment StoreEntitySet="choices">
+                <ScalarProperty Name="choices1" ColumnName="choices" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="questions">
+            <EntityTypeMapping TypeName="RecruitmentModel.questions">
+              <MappingFragment StoreEntitySet="questions">
+                <ScalarProperty Name="published_at" ColumnName="published_at" />
+                <ScalarProperty Name="thumb_url" ColumnName="thumb_url" />
+                <ScalarProperty Name="image_url" ColumnName="image_url" />
+                <ScalarProperty Name="question" ColumnName="question" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="questions_choices">
+            <EntityTypeMapping TypeName="RecruitmentModel.questions_choices">
+              <MappingFragment StoreEntitySet="questions_choices">
+                <ScalarProperty Name="votes" ColumnName="votes" />
+                <ScalarProperty Name="choiceID" ColumnName="choiceID" />
+                <ScalarProperty Name="questionID" ColumnName="questionID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
